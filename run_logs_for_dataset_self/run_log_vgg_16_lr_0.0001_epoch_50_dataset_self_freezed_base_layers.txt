@@ -1,0 +1,134 @@
+wandb: Currently logged in as: d22cs051. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/planck/.netrc
+[LOG]: Login Succesfull.
+[INFO] current used device: cuda
+wandb: Tracking run with wandb version 0.15.2
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230510_081535-rb643xch
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run pious-dream-89
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/rb643xch
+[INFO] Freezing base layers
+[INFO] model class name: VGG16
+[INFO] model loaded with custom weights.
+current exp / total: 1 / 4
+Training with: lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+  0%|          | 0/10 [00:00<?, ?it/s]Epoch: 1 | train_loss: 4.5895 | train_acc: 0.4019 | test_loss: 0.6636 | test_acc: 0.6833
+ 10%|█         | 1/10 [00:09<01:28,  9.86s/it]Epoch: 2 | train_loss: 0.4405 | train_acc: 0.8338 | test_loss: 0.2019 | test_acc: 0.9333
+ 20%|██        | 2/10 [00:18<01:15,  9.38s/it]Epoch: 3 | train_loss: 0.1775 | train_acc: 0.9412 | test_loss: 0.0943 | test_acc: 0.9760
+ 30%|███       | 3/10 [00:27<01:04,  9.23s/it]Epoch: 4 | train_loss: 0.0947 | train_acc: 0.9639 | test_loss: 0.2776 | test_acc: 0.9490
+ 40%|████      | 4/10 [00:37<00:55,  9.18s/it]Epoch: 5 | train_loss: 0.0828 | train_acc: 0.9741 | test_loss: 0.2895 | test_acc: 0.9229
+ 50%|█████     | 5/10 [00:46<00:46,  9.31s/it]Epoch: 6 | train_loss: 0.0927 | train_acc: 0.9744 | test_loss: 0.7454 | test_acc: 0.8552
+ 60%|██████    | 6/10 [00:55<00:37,  9.26s/it]Epoch: 7 | train_loss: 0.0689 | train_acc: 0.9787 | test_loss: 0.2728 | test_acc: 0.9813
+ 70%|███████   | 7/10 [01:04<00:27,  9.16s/it]Epoch: 8 | train_loss: 0.1041 | train_acc: 0.9744 | test_loss: 0.1807 | test_acc: 0.9760
+ 80%|████████  | 8/10 [01:14<00:18,  9.23s/it]Epoch: 9 | train_loss: 0.0648 | train_acc: 0.9756 | test_loss: 0.3268 | test_acc: 0.9406
+ 90%|█████████ | 9/10 [01:23<00:09,  9.32s/it]Epoch: 10 | train_loss: 0.0912 | train_acc: 0.9770 | test_loss: 0.3624 | test_acc: 0.9646
+100%|██████████| 10/10 [01:32<00:00,  9.32s/it]100%|██████████| 10/10 [01:32<00:00,  9.29s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: \ 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: | 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: / 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: - 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: \ 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: | 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: / 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: - 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: \ 36.793 MB of 36.803 MB uploaded (32.811 MB deduped)wandb: 🚀 View run pious-dream-89 at: https://wandb.ai/d22cs051/cv-project-2/runs/rb643xch
+wandb: Synced 6 W&B file(s), 10 media file(s), 650 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230510_081535-rb643xch/logs
+total training time: 109.353 sec.
+LOSS & Accuracy Curves
+lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.15.2
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230510_081731-w9zi0acm
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run dauntless-frost-90
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/w9zi0acm
+[INFO] Freezing base layers
+[INFO] model class name: VGG16
+[INFO] model loaded with custom weights.
+current exp / total: 2 / 4
+Training with: lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+  0%|          | 0/15 [00:00<?, ?it/s]Epoch: 1 | train_loss: 3.4277 | train_acc: 0.4398 | test_loss: 0.5503 | test_acc: 0.8073
+  7%|▋         | 1/15 [00:08<02:02,  8.74s/it]Epoch: 2 | train_loss: 0.3808 | train_acc: 0.8687 | test_loss: 0.2063 | test_acc: 0.9021
+ 13%|█▎        | 2/15 [00:17<01:56,  8.94s/it]Epoch: 3 | train_loss: 0.1754 | train_acc: 0.9423 | test_loss: 0.2380 | test_acc: 0.9625
+ 20%|██        | 3/15 [00:26<01:47,  8.92s/it]Epoch: 4 | train_loss: 0.0809 | train_acc: 0.9744 | test_loss: 0.1172 | test_acc: 0.9813
+ 27%|██▋       | 4/15 [00:35<01:38,  8.98s/it]Epoch: 5 | train_loss: 0.0701 | train_acc: 0.9798 | test_loss: 0.2591 | test_acc: 0.9625
+ 33%|███▎      | 5/15 [00:44<01:29,  8.91s/it]Epoch: 6 | train_loss: 0.0582 | train_acc: 0.9801 | test_loss: 0.1946 | test_acc: 0.9760
+ 40%|████      | 6/15 [00:53<01:21,  9.08s/it]Epoch: 7 | train_loss: 0.0822 | train_acc: 0.9830 | test_loss: 0.1464 | test_acc: 0.9625
+ 47%|████▋     | 7/15 [01:02<01:12,  9.04s/it]Epoch: 8 | train_loss: 0.1018 | train_acc: 0.9801 | test_loss: 0.1822 | test_acc: 0.9760
+ 53%|█████▎    | 8/15 [01:12<01:04,  9.20s/it]Epoch: 9 | train_loss: 0.0564 | train_acc: 0.9812 | test_loss: 0.3138 | test_acc: 0.9656
+ 60%|██████    | 9/15 [01:22<00:56,  9.35s/it]Epoch: 10 | train_loss: 0.1771 | train_acc: 0.9614 | test_loss: 0.1966 | test_acc: 0.9729
+ 67%|██████▋   | 10/15 [01:31<00:46,  9.29s/it]Epoch: 11 | train_loss: 0.1411 | train_acc: 0.9670 | test_loss: 0.7269 | test_acc: 0.8979
+ 73%|███████▎  | 11/15 [01:40<00:37,  9.37s/it]Epoch: 12 | train_loss: 0.1332 | train_acc: 0.9756 | test_loss: 0.2991 | test_acc: 0.9708
+ 80%|████████  | 12/15 [01:49<00:27,  9.26s/it]Epoch: 13 | train_loss: 0.1034 | train_acc: 0.9773 | test_loss: 0.4163 | test_acc: 0.9229
+ 87%|████████▋ | 13/15 [01:59<00:18,  9.39s/it]Epoch: 14 | train_loss: 0.2447 | train_acc: 0.9585 | test_loss: 0.4714 | test_acc: 0.9594
+ 93%|█████████▎| 14/15 [02:08<00:09,  9.38s/it]Epoch: 15 | train_loss: 0.1515 | train_acc: 0.9724 | test_loss: 0.2756 | test_acc: 0.9708
+100%|██████████| 15/15 [02:17<00:00,  9.27s/it]100%|██████████| 15/15 [02:17<00:00,  9.19s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 55.189 MB of 55.200 MB uploaded (51.039 MB deduped)wandb: \ 55.200 MB of 55.200 MB uploaded (51.039 MB deduped)wandb: | 55.200 MB of 55.205 MB uploaded (51.039 MB deduped)wandb: / 55.200 MB of 55.205 MB uploaded (51.039 MB deduped)wandb: - 55.205 MB of 55.205 MB uploaded (51.039 MB deduped)wandb: \ 55.205 MB of 55.205 MB uploaded (51.039 MB deduped)wandb: 🚀 View run dauntless-frost-90 at: https://wandb.ai/d22cs051/cv-project-2/runs/w9zi0acm
+wandb: Synced 6 W&B file(s), 15 media file(s), 975 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230510_081731-w9zi0acm/logs
+total training time: 149.576 sec.
+LOSS & Accuracy Curves
+lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.15.2
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230510_082008-rph8mojj
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run deep-music-91
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/rph8mojj
+[INFO] Freezing base layers
+[INFO] model class name: VGG16
+[INFO] model loaded with custom weights.
+current exp / total: 3 / 4
+Training with: lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+  0%|          | 0/10 [00:00<?, ?it/s]Epoch: 1 | train_loss: 1.3750 | train_acc: 0.5533 | test_loss: 0.5224 | test_acc: 0.9302
+ 10%|█         | 1/10 [00:09<01:22,  9.18s/it]Epoch: 2 | train_loss: 0.3960 | train_acc: 0.9085 | test_loss: 0.2095 | test_acc: 0.9135
+ 20%|██        | 2/10 [00:18<01:12,  9.10s/it]Epoch: 3 | train_loss: 0.1441 | train_acc: 0.9670 | test_loss: 0.0826 | test_acc: 0.9813
+ 30%|███       | 3/10 [00:27<01:03,  9.07s/it]Epoch: 4 | train_loss: 0.0430 | train_acc: 0.9943 | test_loss: 0.1115 | test_acc: 0.9760
+ 40%|████      | 4/10 [00:36<00:54,  9.14s/it]Epoch: 5 | train_loss: 0.0165 | train_acc: 1.0000 | test_loss: 0.1439 | test_acc: 0.9625
+ 50%|█████     | 5/10 [00:45<00:45,  9.17s/it]Epoch: 6 | train_loss: 0.0075 | train_acc: 1.0000 | test_loss: 0.1427 | test_acc: 0.9677
+ 60%|██████    | 6/10 [00:55<00:37,  9.27s/it]Epoch: 7 | train_loss: 0.0052 | train_acc: 0.9986 | test_loss: 0.1214 | test_acc: 0.9760
+ 70%|███████   | 7/10 [01:04<00:27,  9.21s/it]Epoch: 8 | train_loss: 0.0023 | train_acc: 1.0000 | test_loss: 0.0936 | test_acc: 0.9760
+ 80%|████████  | 8/10 [01:13<00:18,  9.15s/it]Epoch: 9 | train_loss: 0.0018 | train_acc: 1.0000 | test_loss: 0.1145 | test_acc: 0.9760
+ 90%|█████████ | 9/10 [01:22<00:09,  9.24s/it]Epoch: 10 | train_loss: 0.0034 | train_acc: 1.0000 | test_loss: 0.0945 | test_acc: 0.9813
+100%|██████████| 10/10 [01:32<00:00,  9.29s/it]100%|██████████| 10/10 [01:32<00:00,  9.21s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 36.807 MB of 36.807 MB uploaded (32.811 MB deduped)wandb: \ 36.807 MB of 36.807 MB uploaded (32.811 MB deduped)wandb: | 36.807 MB of 36.813 MB uploaded (32.811 MB deduped)wandb: / 36.809 MB of 36.813 MB uploaded (32.811 MB deduped)wandb: - 36.809 MB of 36.813 MB uploaded (32.811 MB deduped)wandb: \ 36.809 MB of 36.813 MB uploaded (32.811 MB deduped)wandb: 🚀 View run deep-music-91 at: https://wandb.ai/d22cs051/cv-project-2/runs/rph8mojj
+wandb: Synced 6 W&B file(s), 10 media file(s), 650 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230510_082008-rph8mojj/logs
+total training time: 103.598 sec.
+LOSS & Accuracy Curves
+lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.15.2
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230510_082159-5vk9rts7
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run azure-armadillo-92
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/5vk9rts7
+[INFO] Freezing base layers
+[INFO] model class name: VGG16
+[INFO] model loaded with custom weights.
+current exp / total: 4 / 4
+Training with: lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+  0%|          | 0/15 [00:00<?, ?it/s]Epoch: 1 | train_loss: 1.3663 | train_acc: 0.5431 | test_loss: 0.5342 | test_acc: 0.9094
+  7%|▋         | 1/15 [00:08<02:03,  8.85s/it]Epoch: 2 | train_loss: 0.4157 | train_acc: 0.8826 | test_loss: 0.1658 | test_acc: 0.9250
+ 13%|█▎        | 2/15 [00:19<02:10, 10.03s/it]Epoch: 3 | train_loss: 0.1374 | train_acc: 0.9642 | test_loss: 0.1026 | test_acc: 0.9677
+ 20%|██        | 3/15 [00:29<01:58,  9.85s/it]Epoch: 4 | train_loss: 0.0420 | train_acc: 0.9943 | test_loss: 0.0910 | test_acc: 0.9813
+ 27%|██▋       | 4/15 [00:38<01:44,  9.52s/it]Epoch: 5 | train_loss: 0.0125 | train_acc: 1.0000 | test_loss: 0.1133 | test_acc: 0.9760
+ 33%|███▎      | 5/15 [00:47<01:33,  9.30s/it]Epoch: 6 | train_loss: 0.0049 | train_acc: 1.0000 | test_loss: 0.1536 | test_acc: 0.9760
+ 40%|████      | 6/15 [00:56<01:24,  9.36s/it]Epoch: 7 | train_loss: 0.0030 | train_acc: 1.0000 | test_loss: 0.1605 | test_acc: 0.9760
+ 47%|████▋     | 7/15 [01:05<01:13,  9.21s/it]Epoch: 8 | train_loss: 0.0025 | train_acc: 1.0000 | test_loss: 0.1338 | test_acc: 0.9760
+ 53%|█████▎    | 8/15 [01:14<01:04,  9.16s/it]Epoch: 9 | train_loss: 0.0033 | train_acc: 1.0000 | test_loss: 0.1060 | test_acc: 0.9813
+ 60%|██████    | 9/15 [01:23<00:54,  9.12s/it]Epoch: 10 | train_loss: 0.0016 | train_acc: 1.0000 | test_loss: 0.1568 | test_acc: 0.9760
+ 67%|██████▋   | 10/15 [01:32<00:45,  9.11s/it]Epoch: 11 | train_loss: 0.0043 | train_acc: 0.9986 | test_loss: 0.1901 | test_acc: 0.9625
+ 73%|███████▎  | 11/15 [01:42<00:37,  9.26s/it]Epoch: 12 | train_loss: 0.0030 | train_acc: 1.0000 | test_loss: 0.1289 | test_acc: 0.9813
+ 80%|████████  | 12/15 [01:51<00:27,  9.15s/it]Epoch: 13 | train_loss: 0.0015 | train_acc: 1.0000 | test_loss: 0.1321 | test_acc: 0.9594
+ 87%|████████▋ | 13/15 [02:00<00:18,  9.24s/it]Epoch: 14 | train_loss: 0.0020 | train_acc: 1.0000 | test_loss: 0.1611 | test_acc: 0.9729
+ 93%|█████████▎| 14/15 [02:09<00:09,  9.22s/it]Epoch: 15 | train_loss: 0.0027 | train_acc: 1.0000 | test_loss: 0.1576 | test_acc: 0.9625
+100%|██████████| 15/15 [02:19<00:00,  9.23s/it]100%|██████████| 15/15 [02:19<00:00,  9.28s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 55.209 MB of 55.209 MB uploaded (51.039 MB deduped)wandb: \ 55.209 MB of 55.209 MB uploaded (51.039 MB deduped)wandb: | 55.209 MB of 55.209 MB uploaded (51.039 MB deduped)wandb: / 55.209 MB of 55.209 MB uploaded (51.039 MB deduped)wandb: - 55.209 MB of 55.209 MB uploaded (51.039 MB deduped)wandb: \ 55.209 MB of 55.209 MB uploaded (51.039 MB deduped)wandb: 🚀 View run azure-armadillo-92 at: https://wandb.ai/d22cs051/cv-project-2/runs/5vk9rts7
+wandb: Synced 6 W&B file(s), 15 media file(s), 975 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230510_082159-5vk9rts7/logs
+total training time: 150.933 sec.
+LOSS & Accuracy Curves
+lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+

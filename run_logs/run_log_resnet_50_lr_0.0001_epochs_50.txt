@@ -1,0 +1,74 @@
+wandb: Currently logged in as: d22cs051. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/planck/.netrc
+[LOG]: Login Succesfull.
+[INFO] current used device: cuda
+wandb: W&B API key is configured. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.15.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.0
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230507_143331-hk7m17mk
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run devout-snowball-34
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/hk7m17mk
+current exp / total: 1 / 1
+Training with: lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+  0%|          | 0/50 [00:00<?, ?it/s]Epoch: 1 | train_loss: 6.0898 | train_acc: 0.0346 | test_loss: 4.4426 | test_acc: 0.1843
+  2%|▏         | 1/50 [01:59<1:37:16, 119.11s/it]Epoch: 2 | train_loss: 4.0711 | train_acc: 0.2005 | test_loss: 2.9690 | test_acc: 0.4028
+  4%|▍         | 2/50 [03:55<1:34:09, 117.70s/it]Epoch: 3 | train_loss: 2.9849 | train_acc: 0.3605 | test_loss: 2.2122 | test_acc: 0.5343
+  6%|▌         | 3/50 [05:51<1:31:38, 116.98s/it]Epoch: 4 | train_loss: 2.2901 | train_acc: 0.4816 | test_loss: 1.6801 | test_acc: 0.6435
+  8%|▊         | 4/50 [07:48<1:29:38, 116.93s/it]Epoch: 5 | train_loss: 1.7934 | train_acc: 0.5810 | test_loss: 1.3364 | test_acc: 0.7165
+ 10%|█         | 5/50 [09:44<1:27:19, 116.43s/it]Epoch: 6 | train_loss: 1.4217 | train_acc: 0.6605 | test_loss: 1.1252 | test_acc: 0.7669
+ 12%|█▏        | 6/50 [11:40<1:25:23, 116.44s/it]Epoch: 7 | train_loss: 1.1498 | train_acc: 0.7220 | test_loss: 0.9145 | test_acc: 0.8128
+ 14%|█▍        | 7/50 [13:39<1:24:01, 117.24s/it]Epoch: 8 | train_loss: 0.9553 | train_acc: 0.7674 | test_loss: 0.8044 | test_acc: 0.8376
+ 16%|█▌        | 8/50 [15:41<1:23:04, 118.67s/it]Epoch: 9 | train_loss: 0.8185 | train_acc: 0.8032 | test_loss: 0.7423 | test_acc: 0.8489
+ 18%|█▊        | 9/50 [17:43<1:21:46, 119.67s/it]Epoch: 10 | train_loss: 0.7228 | train_acc: 0.8310 | test_loss: 0.6903 | test_acc: 0.8632
+ 20%|██        | 10/50 [20:29<1:29:17, 133.95s/it]Epoch: 11 | train_loss: 0.6559 | train_acc: 0.8469 | test_loss: 0.6561 | test_acc: 0.8664
+ 22%|██▏       | 11/50 [22:31<1:24:41, 130.30s/it]Epoch: 12 | train_loss: 0.6183 | train_acc: 0.8602 | test_loss: 0.6316 | test_acc: 0.8732
+ 24%|██▍       | 12/50 [24:32<1:20:48, 127.60s/it]Epoch: 13 | train_loss: 0.5888 | train_acc: 0.8688 | test_loss: 0.6421 | test_acc: 0.8702
+ 26%|██▌       | 13/50 [26:34<1:17:32, 125.75s/it]Epoch: 14 | train_loss: 0.5672 | train_acc: 0.8751 | test_loss: 0.6233 | test_acc: 0.8754
+ 28%|██▊       | 14/50 [28:35<1:14:35, 124.33s/it]Epoch: 15 | train_loss: 0.5595 | train_acc: 0.8803 | test_loss: 0.6143 | test_acc: 0.8766
+ 30%|███       | 15/50 [30:37<1:12:08, 123.67s/it]Epoch: 16 | train_loss: 0.5426 | train_acc: 0.8832 | test_loss: 0.6072 | test_acc: 0.8789
+ 32%|███▏      | 16/50 [32:39<1:09:53, 123.35s/it]Epoch: 17 | train_loss: 0.5346 | train_acc: 0.8870 | test_loss: 0.6050 | test_acc: 0.8796
+ 34%|███▍      | 17/50 [34:41<1:07:29, 122.71s/it]Epoch: 18 | train_loss: 0.5280 | train_acc: 0.8875 | test_loss: 0.6028 | test_acc: 0.8785
+ 36%|███▌      | 18/50 [36:43<1:05:18, 122.45s/it]Epoch: 19 | train_loss: 0.5290 | train_acc: 0.8886 | test_loss: 0.6078 | test_acc: 0.8798
+ 38%|███▊      | 19/50 [38:44<1:03:04, 122.09s/it]Epoch: 20 | train_loss: 0.5138 | train_acc: 0.8928 | test_loss: 0.6150 | test_acc: 0.8801
+ 40%|████      | 20/50 [40:45<1:00:57, 121.92s/it]Epoch: 21 | train_loss: 0.5136 | train_acc: 0.8944 | test_loss: 0.5905 | test_acc: 0.8821
+ 42%|████▏     | 21/50 [42:47<58:56, 121.96s/it]  Epoch: 22 | train_loss: 0.5083 | train_acc: 0.8952 | test_loss: 0.5906 | test_acc: 0.8825
+ 44%|████▍     | 22/50 [44:49<56:49, 121.77s/it]Epoch: 23 | train_loss: 0.5061 | train_acc: 0.8949 | test_loss: 0.5905 | test_acc: 0.8803
+ 46%|████▌     | 23/50 [46:50<54:43, 121.61s/it]Epoch: 24 | train_loss: 0.5053 | train_acc: 0.8955 | test_loss: 0.5939 | test_acc: 0.8801
+ 48%|████▊     | 24/50 [48:52<52:44, 121.70s/it]Epoch: 25 | train_loss: 0.5084 | train_acc: 0.8957 | test_loss: 0.5872 | test_acc: 0.8824
+ 50%|█████     | 25/50 [50:54<50:47, 121.89s/it]Epoch: 26 | train_loss: 0.5006 | train_acc: 0.8971 | test_loss: 0.5832 | test_acc: 0.8827
+ 52%|█████▏    | 26/50 [52:56<48:43, 121.81s/it]Epoch: 27 | train_loss: 0.4926 | train_acc: 0.8986 | test_loss: 0.5754 | test_acc: 0.8841
+ 54%|█████▍    | 27/50 [54:57<46:38, 121.69s/it]Epoch: 28 | train_loss: 0.4939 | train_acc: 0.9000 | test_loss: 0.5799 | test_acc: 0.8825
+ 56%|█████▌    | 28/50 [56:59<44:38, 121.77s/it]Epoch: 29 | train_loss: 0.4887 | train_acc: 0.9005 | test_loss: 0.5793 | test_acc: 0.8829
+ 58%|█████▊    | 29/50 [59:01<42:38, 121.85s/it]Epoch: 30 | train_loss: 0.4864 | train_acc: 0.9009 | test_loss: 0.5787 | test_acc: 0.8856
+ 60%|██████    | 30/50 [1:01:03<40:34, 121.72s/it]Epoch: 31 | train_loss: 0.4834 | train_acc: 0.9026 | test_loss: 0.5832 | test_acc: 0.8841
+ 62%|██████▏   | 31/50 [1:03:05<38:34, 121.84s/it]Epoch: 32 | train_loss: 0.4874 | train_acc: 0.9008 | test_loss: 0.5776 | test_acc: 0.8851
+ 64%|██████▍   | 32/50 [1:05:07<36:34, 121.89s/it]Epoch: 33 | train_loss: 0.4873 | train_acc: 0.9007 | test_loss: 0.5707 | test_acc: 0.8874
+ 66%|██████▌   | 33/50 [1:07:08<34:28, 121.70s/it]Epoch: 34 | train_loss: 0.4792 | train_acc: 0.9035 | test_loss: 0.5761 | test_acc: 0.8845
+ 68%|██████▊   | 34/50 [1:09:10<32:28, 121.77s/it]Epoch: 35 | train_loss: 0.4785 | train_acc: 0.9029 | test_loss: 0.5809 | test_acc: 0.8850
+ 70%|███████   | 35/50 [1:11:12<30:28, 121.87s/it]Epoch: 36 | train_loss: 0.4709 | train_acc: 0.9041 | test_loss: 0.5752 | test_acc: 0.8862
+ 72%|███████▏  | 36/50 [1:13:14<28:25, 121.82s/it]Epoch: 37 | train_loss: 0.4725 | train_acc: 0.9047 | test_loss: 0.5859 | test_acc: 0.8852
+ 74%|███████▍  | 37/50 [1:15:16<26:27, 122.08s/it]Epoch: 38 | train_loss: 0.4768 | train_acc: 0.9040 | test_loss: 0.5761 | test_acc: 0.8874
+ 76%|███████▌  | 38/50 [1:17:19<24:25, 122.10s/it]Epoch: 39 | train_loss: 0.4738 | train_acc: 0.9051 | test_loss: 0.5668 | test_acc: 0.8865
+ 78%|███████▊  | 39/50 [1:19:20<22:20, 121.86s/it]Epoch: 40 | train_loss: 0.4708 | train_acc: 0.9048 | test_loss: 0.5816 | test_acc: 0.8857
+ 80%|████████  | 40/50 [1:21:21<20:16, 121.66s/it]Epoch: 41 | train_loss: 0.4726 | train_acc: 0.9052 | test_loss: 0.5622 | test_acc: 0.8870
+ 82%|████████▏ | 41/50 [1:23:24<18:17, 121.96s/it]Epoch: 42 | train_loss: 0.4641 | train_acc: 0.9083 | test_loss: 0.5683 | test_acc: 0.8873
+ 84%|████████▍ | 42/50 [1:25:24<16:12, 121.59s/it]Epoch: 43 | train_loss: 0.4693 | train_acc: 0.9054 | test_loss: 0.5736 | test_acc: 0.8865
+ 86%|████████▌ | 43/50 [1:27:26<14:10, 121.52s/it]Epoch: 44 | train_loss: 0.4678 | train_acc: 0.9065 | test_loss: 0.5783 | test_acc: 0.8858
+ 88%|████████▊ | 44/50 [1:29:26<12:07, 121.17s/it]Epoch: 45 | train_loss: 0.4655 | train_acc: 0.9071 | test_loss: 0.5726 | test_acc: 0.8851
+ 90%|█████████ | 45/50 [1:31:28<10:07, 121.44s/it]Epoch: 46 | train_loss: 0.4642 | train_acc: 0.9083 | test_loss: 0.5731 | test_acc: 0.8842
+ 92%|█████████▏| 46/50 [1:33:30<08:06, 121.59s/it]Epoch: 47 | train_loss: 0.4643 | train_acc: 0.9076 | test_loss: 0.5692 | test_acc: 0.8871
+ 94%|█████████▍| 47/50 [1:35:36<06:08, 123.00s/it]Epoch: 48 | train_loss: 0.4641 | train_acc: 0.9051 | test_loss: 0.5631 | test_acc: 0.8876
+ 96%|█████████▌| 48/50 [1:37:38<04:05, 122.63s/it]Epoch: 49 | train_loss: 0.4613 | train_acc: 0.9088 | test_loss: 0.5664 | test_acc: 0.8848
+ 98%|█████████▊| 49/50 [1:39:40<02:02, 122.43s/it]Epoch: 50 | train_loss: 0.4613 | train_acc: 0.9080 | test_loss: 0.5620 | test_acc: 0.8850
+100%|██████████| 50/50 [1:41:43<00:00, 122.66s/it]100%|██████████| 50/50 [1:41:43<00:00, 122.08s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: 🚀 View run devout-snowball-34 at: https://wandb.ai/d22cs051/cv-project-2/runs/hk7m17mk
+wandb: Synced 6 W&B file(s), 50 media file(s), 6450 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230507_143331-hk7m17mk/logs
+total training time: 6133.003 sec.
+LOSS & Accuracy Curves
+lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+

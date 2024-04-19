@@ -1,0 +1,299 @@
+wandb: Currently logged in as: d22cs051. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/planck/.netrc
+[LOG]: Login Succesfull.
+[INFO] current used device: cuda
+wandb: wandb version 0.15.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.0
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230507_212811-a2bj7z7o
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fluent-planet-43
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/a2bj7z7o
+current exp / total: 1 / 4
+Training with: lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+  0%|          | 0/25 [00:00<?, ?it/s]Epoch: 1 | train_loss: 6.8541 | train_acc: 0.0023 | test_loss: 6.8180 | test_acc: 0.0019
+  4%|▍         | 1/25 [01:58<47:19, 118.29s/it]Epoch: 2 | train_loss: 6.6224 | train_acc: 0.0042 | test_loss: 6.6792 | test_acc: 0.0045
+  8%|▊         | 2/25 [03:55<45:01, 117.47s/it]Epoch: 3 | train_loss: 6.4785 | train_acc: 0.0068 | test_loss: 6.4817 | test_acc: 0.0061
+ 12%|█▏        | 3/25 [05:49<42:32, 116.03s/it]Epoch: 4 | train_loss: 6.3833 | train_acc: 0.0087 | test_loss: 6.3848 | test_acc: 0.0077
+ 16%|█▌        | 4/25 [07:44<40:29, 115.69s/it]Epoch: 5 | train_loss: 6.3090 | train_acc: 0.0102 | test_loss: 6.2448 | test_acc: 0.0117
+ 20%|██        | 5/25 [09:39<38:24, 115.25s/it]Epoch: 6 | train_loss: 6.2458 | train_acc: 0.0114 | test_loss: 6.3679 | test_acc: 0.0087
+ 24%|██▍       | 6/25 [11:34<36:28, 115.19s/it]Epoch: 7 | train_loss: 6.1848 | train_acc: 0.0136 | test_loss: 6.2336 | test_acc: 0.0142
+ 28%|██▊       | 7/25 [13:29<34:32, 115.11s/it]Epoch: 8 | train_loss: 6.1455 | train_acc: 0.0149 | test_loss: 6.1032 | test_acc: 0.0174
+ 32%|███▏      | 8/25 [15:25<32:45, 115.64s/it]Epoch: 9 | train_loss: 6.1192 | train_acc: 0.0173 | test_loss: 6.1200 | test_acc: 0.0187
+ 36%|███▌      | 9/25 [17:23<30:59, 116.20s/it]Epoch: 10 | train_loss: 6.1014 | train_acc: 0.0191 | test_loss: 6.1011 | test_acc: 0.0195
+ 40%|████      | 10/25 [19:18<28:59, 115.96s/it]Epoch: 11 | train_loss: 6.0728 | train_acc: 0.0203 | test_loss: 6.0682 | test_acc: 0.0198
+ 44%|████▍     | 11/25 [21:15<27:05, 116.11s/it]Epoch: 12 | train_loss: 6.0565 | train_acc: 0.0200 | test_loss: 6.0570 | test_acc: 0.0229
+ 48%|████▊     | 12/25 [23:11<25:09, 116.08s/it]Epoch: 13 | train_loss: 6.0497 | train_acc: 0.0215 | test_loss: 6.0093 | test_acc: 0.0288
+ 52%|█████▏    | 13/25 [25:05<23:07, 115.65s/it]Epoch: 14 | train_loss: 6.0280 | train_acc: 0.0217 | test_loss: 5.9757 | test_acc: 0.0232
+ 56%|█████▌    | 14/25 [27:00<21:10, 115.46s/it]Epoch: 15 | train_loss: 5.9982 | train_acc: 0.0240 | test_loss: 5.9834 | test_acc: 0.0246
+ 60%|██████    | 15/25 [28:57<19:17, 115.71s/it]Epoch: 16 | train_loss: 5.9602 | train_acc: 0.0237 | test_loss: 5.9164 | test_acc: 0.0251
+ 64%|██████▍   | 16/25 [30:52<17:20, 115.58s/it]Epoch: 17 | train_loss: 5.9230 | train_acc: 0.0266 | test_loss: 5.9013 | test_acc: 0.0282
+ 68%|██████▊   | 17/25 [32:47<15:22, 115.35s/it]Epoch: 18 | train_loss: 5.8667 | train_acc: 0.0268 | test_loss: 5.8197 | test_acc: 0.0345
+ 72%|███████▏  | 18/25 [34:43<13:29, 115.64s/it]Epoch: 19 | train_loss: 5.8267 | train_acc: 0.0280 | test_loss: 5.7174 | test_acc: 0.0367
+ 76%|███████▌  | 19/25 [36:38<11:33, 115.50s/it]Epoch: 20 | train_loss: 5.8062 | train_acc: 0.0299 | test_loss: 5.7742 | test_acc: 0.0330
+ 80%|████████  | 20/25 [38:34<09:37, 115.44s/it]Epoch: 21 | train_loss: 5.7876 | train_acc: 0.0291 | test_loss: 5.7561 | test_acc: 0.0325
+ 84%|████████▍ | 21/25 [40:28<07:40, 115.18s/it]Epoch: 22 | train_loss: 5.7953 | train_acc: 0.0327 | test_loss: 5.7346 | test_acc: 0.0392
+ 88%|████████▊ | 22/25 [42:23<05:44, 114.95s/it]Epoch: 23 | train_loss: 5.8139 | train_acc: 0.0311 | test_loss: 5.8530 | test_acc: 0.0321
+ 92%|█████████▏| 23/25 [44:19<03:51, 115.53s/it]Epoch: 24 | train_loss: 5.8298 | train_acc: 0.0305 | test_loss: 5.7768 | test_acc: 0.0403
+ 96%|█████████▌| 24/25 [46:15<01:55, 115.47s/it]Epoch: 25 | train_loss: 5.8463 | train_acc: 0.0306 | test_loss: 5.7436 | test_acc: 0.0407
+100%|██████████| 25/25 [48:10<00:00, 115.46s/it]100%|██████████| 25/25 [48:10<00:00, 115.63s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: 🚀 View run fluent-planet-43 at: https://wandb.ai/d22cs051/cv-project-2/runs/a2bj7z7o
+wandb: Synced 6 W&B file(s), 25 media file(s), 1625 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230507_212811-a2bj7z7o/logs
+total training time: 2898.733 sec.
+LOSS & Accuracy Curves
+lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.15.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.0
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230507_221639-50rvsnn3
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run flowing-deluge-44
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/50rvsnn3
+current exp / total: 2 / 4
+Training with: lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+  0%|          | 0/50 [00:00<?, ?it/s]Epoch: 1 | train_loss: 6.8571 | train_acc: 0.0022 | test_loss: 6.7954 | test_acc: 0.0026
+  2%|▏         | 1/50 [01:54<1:33:48, 114.87s/it]Epoch: 2 | train_loss: 6.6195 | train_acc: 0.0039 | test_loss: 6.6378 | test_acc: 0.0043
+  4%|▍         | 2/50 [03:50<1:32:19, 115.42s/it]Epoch: 3 | train_loss: 6.4756 | train_acc: 0.0059 | test_loss: 6.3967 | test_acc: 0.0066
+  6%|▌         | 3/50 [05:47<1:31:01, 116.20s/it]Epoch: 4 | train_loss: 6.3794 | train_acc: 0.0078 | test_loss: 6.4858 | test_acc: 0.0060
+  8%|▊         | 4/50 [07:51<1:31:14, 119.02s/it]Epoch: 5 | train_loss: 6.3305 | train_acc: 0.0097 | test_loss: 6.3338 | test_acc: 0.0094
+ 10%|█         | 5/50 [09:48<1:28:43, 118.30s/it]Epoch: 6 | train_loss: 6.2862 | train_acc: 0.0104 | test_loss: 6.2361 | test_acc: 0.0152
+ 12%|█▏        | 6/50 [12:01<1:30:36, 123.56s/it]Epoch: 7 | train_loss: 6.2600 | train_acc: 0.0113 | test_loss: 6.2007 | test_acc: 0.0160
+ 14%|█▍        | 7/50 [14:16<1:31:01, 127.02s/it]Epoch: 8 | train_loss: 6.2303 | train_acc: 0.0147 | test_loss: 6.2295 | test_acc: 0.0130
+ 16%|█▌        | 8/50 [16:12<1:26:35, 123.71s/it]Epoch: 9 | train_loss: 6.1928 | train_acc: 0.0163 | test_loss: 6.1735 | test_acc: 0.0167
+ 18%|█▊        | 9/50 [18:09<1:22:58, 121.43s/it]Epoch: 10 | train_loss: 6.1632 | train_acc: 0.0168 | test_loss: 6.2077 | test_acc: 0.0178
+ 20%|██        | 10/50 [20:07<1:20:19, 120.49s/it]Epoch: 11 | train_loss: 6.1344 | train_acc: 0.0187 | test_loss: 6.0926 | test_acc: 0.0209
+ 22%|██▏       | 11/50 [22:04<1:17:31, 119.27s/it]Epoch: 12 | train_loss: 6.1046 | train_acc: 0.0187 | test_loss: 6.0594 | test_acc: 0.0226
+ 24%|██▍       | 12/50 [24:01<1:15:11, 118.71s/it]Epoch: 13 | train_loss: 6.0812 | train_acc: 0.0206 | test_loss: 6.2093 | test_acc: 0.0127
+ 26%|██▌       | 13/50 [25:58<1:12:48, 118.06s/it]Epoch: 14 | train_loss: 6.0451 | train_acc: 0.0219 | test_loss: 6.0528 | test_acc: 0.0231
+ 28%|██▊       | 14/50 [27:53<1:10:23, 117.31s/it]Epoch: 15 | train_loss: 6.0235 | train_acc: 0.0226 | test_loss: 6.2210 | test_acc: 0.0230
+ 30%|███       | 15/50 [29:51<1:08:28, 117.40s/it]Epoch: 16 | train_loss: 5.9876 | train_acc: 0.0248 | test_loss: 5.9772 | test_acc: 0.0250
+ 32%|███▏      | 16/50 [31:48<1:06:30, 117.37s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 17 | train_loss: 5.9665 | train_acc: 0.0245 | test_loss: 5.8736 | test_acc: 0.0337
+ 34%|███▍      | 17/50 [34:22<1:10:37, 128.40s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 18 | train_loss: 5.9637 | train_acc: 0.0239 | test_loss: 5.8966 | test_acc: 0.0307
+ 36%|███▌      | 18/50 [36:55<1:12:27, 135.87s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 19 | train_loss: 5.9624 | train_acc: 0.0238 | test_loss: 5.9089 | test_acc: 0.0312
+ 38%|███▊      | 19/50 [39:28<1:12:48, 140.91s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 20 | train_loss: 5.9629 | train_acc: 0.0255 | test_loss: 5.9801 | test_acc: 0.0246
+ 40%|████      | 20/50 [42:01<1:12:21, 144.70s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 21 | train_loss: 5.9573 | train_acc: 0.0271 | test_loss: 5.8248 | test_acc: 0.0419
+ 42%|████▏     | 21/50 [44:32<1:10:46, 146.42s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 22 | train_loss: 5.9496 | train_acc: 0.0271 | test_loss: 5.9247 | test_acc: 0.0331
+ 44%|████▍     | 22/50 [47:05<1:09:13, 148.35s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 23 | train_loss: 5.9370 | train_acc: 0.0273 | test_loss: 5.9066 | test_acc: 0.0321
+ 46%|████▌     | 23/50 [49:35<1:07:03, 149.02s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 24 | train_loss: 5.9217 | train_acc: 0.0278 | test_loss: 5.8462 | test_acc: 0.0355
+ 48%|████▊     | 24/50 [52:04<1:04:30, 148.88s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 25 | train_loss: 5.8643 | train_acc: 0.0298 | test_loss: 5.7748 | test_acc: 0.0345
+ 50%|█████     | 25/50 [54:34<1:02:11, 149.24s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 26 | train_loss: 5.7971 | train_acc: 0.0303 | test_loss: 5.6962 | test_acc: 0.0396
+ 52%|█████▏    | 26/50 [57:06<1:00:04, 150.20s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 27 | train_loss: 5.7478 | train_acc: 0.0328 | test_loss: 5.7681 | test_acc: 0.0375
+ 54%|█████▍    | 27/50 [59:36<57:29, 149.96s/it]  wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 28 | train_loss: 5.7325 | train_acc: 0.0326 | test_loss: 5.6959 | test_acc: 0.0405
+ 56%|█████▌    | 28/50 [1:02:07<55:09, 150.44s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 29 | train_loss: 5.7386 | train_acc: 0.0343 | test_loss: 5.6835 | test_acc: 0.0400
+ 58%|█████▊    | 29/50 [1:04:41<52:56, 151.27s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 30 | train_loss: 5.7374 | train_acc: 0.0343 | test_loss: 5.7527 | test_acc: 0.0415
+ 60%|██████    | 30/50 [1:07:12<50:23, 151.19s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 31 | train_loss: 5.7625 | train_acc: 0.0339 | test_loss: 5.8152 | test_acc: 0.0357
+ 62%|██████▏   | 31/50 [1:09:46<48:11, 152.17s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 32 | train_loss: 5.7800 | train_acc: 0.0349 | test_loss: 5.7592 | test_acc: 0.0429
+ 64%|██████▍   | 32/50 [1:12:18<45:37, 152.09s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 33 | train_loss: 5.8145 | train_acc: 0.0346 | test_loss: 5.7475 | test_acc: 0.0521
+ 66%|██████▌   | 33/50 [1:14:49<42:59, 151.74s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 34 | train_loss: 5.8295 | train_acc: 0.0357 | test_loss: 5.7625 | test_acc: 0.0477
+ 68%|██████▊   | 34/50 [1:17:21<40:28, 151.81s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 35 | train_loss: 5.8491 | train_acc: 0.0342 | test_loss: 5.9972 | test_acc: 0.0283
+ 70%|███████   | 35/50 [1:19:54<38:02, 152.20s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 36 | train_loss: 5.8566 | train_acc: 0.0345 | test_loss: 5.9553 | test_acc: 0.0336
+ 72%|███████▏  | 36/50 [1:22:27<35:34, 152.46s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 37 | train_loss: 5.8018 | train_acc: 0.0366 | test_loss: 5.8092 | test_acc: 0.0339
+ 74%|███████▍  | 37/50 [1:24:57<32:51, 151.66s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 38 | train_loss: 5.6828 | train_acc: 0.0370 | test_loss: 5.5978 | test_acc: 0.0402
+ 76%|███████▌  | 38/50 [1:27:28<30:16, 151.40s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 39 | train_loss: 5.6243 | train_acc: 0.0400 | test_loss: 5.6248 | test_acc: 0.0424
+ 78%|███████▊  | 39/50 [1:30:01<27:53, 152.10s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 40 | train_loss: 5.5835 | train_acc: 0.0411 | test_loss: 5.6185 | test_acc: 0.0413
+ 80%|████████  | 40/50 [1:32:34<25:23, 152.38s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 41 | train_loss: 5.5664 | train_acc: 0.0415 | test_loss: 5.4248 | test_acc: 0.0563
+ 82%|████████▏ | 41/50 [1:35:07<22:52, 152.53s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 42 | train_loss: 5.5685 | train_acc: 0.0446 | test_loss: 5.6182 | test_acc: 0.0428
+ 84%|████████▍ | 42/50 [1:37:41<20:22, 152.77s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 43 | train_loss: 5.5938 | train_acc: 0.0427 | test_loss: 5.5052 | test_acc: 0.0626
+ 86%|████████▌ | 43/50 [1:40:12<17:45, 152.22s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 44 | train_loss: 5.6057 | train_acc: 0.0453 | test_loss: 5.7193 | test_acc: 0.0428
+ 88%|████████▊ | 44/50 [1:42:42<15:09, 151.62s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 45 | train_loss: 5.6234 | train_acc: 0.0451 | test_loss: 5.5612 | test_acc: 0.0558
+ 90%|█████████ | 45/50 [1:45:14<12:38, 151.70s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 46 | train_loss: 5.6410 | train_acc: 0.0447 | test_loss: 5.4857 | test_acc: 0.0689
+ 92%|█████████▏| 46/50 [1:47:48<10:09, 152.35s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 47 | train_loss: 5.6481 | train_acc: 0.0461 | test_loss: 5.6228 | test_acc: 0.0525
+ 94%|█████████▍| 47/50 [1:50:20<07:36, 152.28s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 48 | train_loss: 5.6517 | train_acc: 0.0463 | test_loss: 5.6154 | test_acc: 0.0604
+ 96%|█████████▌| 48/50 [1:52:51<05:03, 151.92s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 49 | train_loss: 5.6449 | train_acc: 0.0468 | test_loss: 5.6010 | test_acc: 0.0521
+ 98%|█████████▊| 49/50 [1:55:20<02:31, 151.23s/it]wandb: Network error (SSLError), entering retry loop.
+wandb: Network error (SSLError), entering retry loop.
+Epoch: 50 | train_loss: 5.6476 | train_acc: 0.0480 | test_loss: 5.6195 | test_acc: 0.0514
+100%|██████████| 50/50 [1:57:53<00:00, 151.69s/it]100%|██████████| 50/50 [1:57:53<00:00, 141.47s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: 🚀 View run flowing-deluge-44 at: https://wandb.ai/d22cs051/cv-project-2/runs/50rvsnn3
+wandb: Synced 6 W&B file(s), 50 media file(s), 3250 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230507_221639-50rvsnn3/logs
+total training time: 15944.219 sec.
+LOSS & Accuracy Curves
+lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.15.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.0
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230508_024234-2zondfop
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run logical-fire-45
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/2zondfop
+current exp / total: 3 / 4
+Training with: lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+  0%|          | 0/25 [00:00<?, ?it/s]Epoch: 1 | train_loss: 6.9321 | train_acc: 0.0023 | test_loss: 6.6873 | test_acc: 0.0046
+  4%|▍         | 1/25 [01:57<47:00, 117.53s/it]Epoch: 2 | train_loss: 6.5647 | train_acc: 0.0084 | test_loss: 6.2863 | test_acc: 0.0153
+  8%|▊         | 2/25 [03:54<45:01, 117.44s/it]Epoch: 3 | train_loss: 6.1710 | train_acc: 0.0184 | test_loss: 5.9267 | test_acc: 0.0289
+ 12%|█▏        | 3/25 [05:51<42:56, 117.13s/it]Epoch: 4 | train_loss: 5.8383 | train_acc: 0.0361 | test_loss: 5.6251 | test_acc: 0.0488
+ 16%|█▌        | 4/25 [07:48<40:56, 116.97s/it]Epoch: 5 | train_loss: 5.6056 | train_acc: 0.0521 | test_loss: 5.4195 | test_acc: 0.0623
+ 20%|██        | 5/25 [09:46<39:08, 117.42s/it]Epoch: 6 | train_loss: 5.4285 | train_acc: 0.0655 | test_loss: 5.4022 | test_acc: 0.0658
+ 24%|██▍       | 6/25 [11:42<37:02, 116.97s/it]Epoch: 7 | train_loss: 5.2747 | train_acc: 0.0826 | test_loss: 5.1629 | test_acc: 0.0856
+ 28%|██▊       | 7/25 [13:38<34:56, 116.46s/it]Epoch: 8 | train_loss: 5.1363 | train_acc: 0.0982 | test_loss: 4.9624 | test_acc: 0.1124
+ 32%|███▏      | 8/25 [15:34<32:56, 116.28s/it]Epoch: 9 | train_loss: 5.0053 | train_acc: 0.1150 | test_loss: 4.8344 | test_acc: 0.1319
+ 36%|███▌      | 9/25 [17:31<31:04, 116.50s/it]Epoch: 10 | train_loss: 4.8831 | train_acc: 0.1321 | test_loss: 4.7370 | test_acc: 0.1531
+ 40%|████      | 10/25 [19:27<29:08, 116.56s/it]Epoch: 11 | train_loss: 4.7671 | train_acc: 0.1508 | test_loss: 4.6474 | test_acc: 0.1634
+ 44%|████▍     | 11/25 [21:24<27:13, 116.67s/it]Epoch: 12 | train_loss: 4.6476 | train_acc: 0.1693 | test_loss: 4.4770 | test_acc: 0.1864
+ 48%|████▊     | 12/25 [23:20<25:14, 116.53s/it]Epoch: 13 | train_loss: 4.5266 | train_acc: 0.1883 | test_loss: 4.3920 | test_acc: 0.1944
+ 52%|█████▏    | 13/25 [25:18<23:23, 116.99s/it]Epoch: 14 | train_loss: 4.4102 | train_acc: 0.2084 | test_loss: 4.2162 | test_acc: 0.2315
+ 56%|█████▌    | 14/25 [27:15<21:24, 116.75s/it]Epoch: 15 | train_loss: 4.2929 | train_acc: 0.2267 | test_loss: 4.2461 | test_acc: 0.2311
+ 60%|██████    | 15/25 [29:13<19:32, 117.24s/it]Epoch: 16 | train_loss: 4.1716 | train_acc: 0.2475 | test_loss: 4.0978 | test_acc: 0.2460
+ 64%|██████▍   | 16/25 [31:11<17:36, 117.41s/it]Epoch: 17 | train_loss: 4.0538 | train_acc: 0.2665 | test_loss: 3.9043 | test_acc: 0.2780
+ 68%|██████▊   | 17/25 [33:08<15:38, 117.31s/it]Epoch: 18 | train_loss: 3.9403 | train_acc: 0.2862 | test_loss: 4.0119 | test_acc: 0.2604
+ 72%|███████▏  | 18/25 [35:06<13:42, 117.50s/it]Epoch: 19 | train_loss: 3.8359 | train_acc: 0.3063 | test_loss: 3.7515 | test_acc: 0.2994
+ 76%|███████▌  | 19/25 [37:02<11:43, 117.22s/it]Epoch: 20 | train_loss: 3.7157 | train_acc: 0.3291 | test_loss: 3.6369 | test_acc: 0.3354
+ 80%|████████  | 20/25 [38:58<09:43, 116.78s/it]Epoch: 21 | train_loss: 3.6083 | train_acc: 0.3500 | test_loss: 3.5182 | test_acc: 0.3588
+ 84%|████████▍ | 21/25 [40:55<07:47, 116.91s/it]Epoch: 22 | train_loss: 3.5053 | train_acc: 0.3672 | test_loss: 3.4391 | test_acc: 0.3686
+ 88%|████████▊ | 22/25 [42:55<05:53, 117.76s/it]Epoch: 23 | train_loss: 3.4022 | train_acc: 0.3878 | test_loss: 3.4695 | test_acc: 0.3657
+ 92%|█████████▏| 23/25 [44:50<03:53, 116.91s/it]Epoch: 24 | train_loss: 3.3027 | train_acc: 0.4050 | test_loss: 3.2292 | test_acc: 0.4167
+ 96%|█████████▌| 24/25 [46:48<01:57, 117.24s/it]Epoch: 25 | train_loss: 3.2126 | train_acc: 0.4245 | test_loss: 3.2542 | test_acc: 0.3907
+100%|██████████| 25/25 [48:44<00:00, 116.78s/it]100%|██████████| 25/25 [48:44<00:00, 116.97s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: 🚀 View run logical-fire-45 at: https://wandb.ai/d22cs051/cv-project-2/runs/2zondfop
+wandb: Synced 6 W&B file(s), 25 media file(s), 1625 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230508_024234-2zondfop/logs
+total training time: 2932.634 sec.
+LOSS & Accuracy Curves
+lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.15.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.0
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230508_033137-kg8xqkoe
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run driven-totem-46
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/kg8xqkoe
+current exp / total: 4 / 4
+Training with: lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+  0%|          | 0/50 [00:00<?, ?it/s]Epoch: 1 | train_loss: 6.9352 | train_acc: 0.0023 | test_loss: 6.7358 | test_acc: 0.0063
+  2%|▏         | 1/50 [01:58<1:36:45, 118.47s/it]Epoch: 2 | train_loss: 6.5949 | train_acc: 0.0071 | test_loss: 6.3428 | test_acc: 0.0146
+  4%|▍         | 2/50 [03:56<1:34:23, 117.99s/it]Epoch: 3 | train_loss: 6.2000 | train_acc: 0.0175 | test_loss: 5.8936 | test_acc: 0.0326
+  6%|▌         | 3/50 [05:54<1:32:40, 118.31s/it]Epoch: 4 | train_loss: 5.8277 | train_acc: 0.0349 | test_loss: 5.5790 | test_acc: 0.0491
+  8%|▊         | 4/50 [07:52<1:30:29, 118.04s/it]Epoch: 5 | train_loss: 5.5732 | train_acc: 0.0530 | test_loss: 5.4711 | test_acc: 0.0589
+ 10%|█         | 5/50 [09:49<1:28:16, 117.70s/it]Epoch: 6 | train_loss: 5.3880 | train_acc: 0.0696 | test_loss: 5.2111 | test_acc: 0.0807
+ 12%|█▏        | 6/50 [11:51<1:27:29, 119.31s/it]Epoch: 7 | train_loss: 5.2331 | train_acc: 0.0856 | test_loss: 5.1246 | test_acc: 0.0894
+ 14%|█▍        | 7/50 [13:48<1:24:47, 118.32s/it]Epoch: 8 | train_loss: 5.0956 | train_acc: 0.1004 | test_loss: 5.0205 | test_acc: 0.1060
+ 16%|█▌        | 8/50 [15:46<1:22:45, 118.22s/it]Epoch: 9 | train_loss: 4.9601 | train_acc: 0.1179 | test_loss: 4.8388 | test_acc: 0.1261
+ 18%|█▊        | 9/50 [17:43<1:20:35, 117.94s/it]Epoch: 10 | train_loss: 4.8331 | train_acc: 0.1362 | test_loss: 4.6721 | test_acc: 0.1622
+ 20%|██        | 10/50 [19:41<1:18:35, 117.89s/it]Epoch: 11 | train_loss: 4.7090 | train_acc: 0.1561 | test_loss: 4.7212 | test_acc: 0.1434
+ 22%|██▏       | 11/50 [21:39<1:16:35, 117.83s/it]Epoch: 12 | train_loss: 4.5944 | train_acc: 0.1736 | test_loss: 4.6111 | test_acc: 0.1640
+ 24%|██▍       | 12/50 [23:34<1:14:13, 117.21s/it]Epoch: 13 | train_loss: 4.4663 | train_acc: 0.1927 | test_loss: 4.3588 | test_acc: 0.2088
+ 26%|██▌       | 13/50 [25:32<1:12:20, 117.32s/it]Epoch: 14 | train_loss: 4.3435 | train_acc: 0.2136 | test_loss: 4.2532 | test_acc: 0.2302
+ 28%|██▊       | 14/50 [27:30<1:10:28, 117.47s/it]Epoch: 15 | train_loss: 4.2129 | train_acc: 0.2372 | test_loss: 4.1496 | test_acc: 0.2408
+ 30%|███       | 15/50 [29:29<1:08:50, 118.02s/it]Epoch: 16 | train_loss: 4.0914 | train_acc: 0.2586 | test_loss: 4.0290 | test_acc: 0.2594
+ 32%|███▏      | 16/50 [31:25<1:06:35, 117.52s/it]Epoch: 17 | train_loss: 3.9682 | train_acc: 0.2796 | test_loss: 3.9451 | test_acc: 0.2812
+ 34%|███▍      | 17/50 [33:23<1:04:34, 117.40s/it]Epoch: 18 | train_loss: 3.8559 | train_acc: 0.2987 | test_loss: 3.7069 | test_acc: 0.3172
+ 36%|███▌      | 18/50 [35:19<1:02:24, 117.03s/it]Epoch: 19 | train_loss: 3.7358 | train_acc: 0.3178 | test_loss: 3.7056 | test_acc: 0.3293
+ 38%|███▊      | 19/50 [37:14<1:00:15, 116.64s/it]Epoch: 20 | train_loss: 3.6253 | train_acc: 0.3408 | test_loss: 3.5997 | test_acc: 0.3457
+ 40%|████      | 20/50 [39:12<58:24, 116.81s/it]  Epoch: 21 | train_loss: 3.5208 | train_acc: 0.3596 | test_loss: 3.4442 | test_acc: 0.3541
+ 42%|████▏     | 21/50 [41:09<56:30, 116.91s/it]Epoch: 22 | train_loss: 3.4104 | train_acc: 0.3793 | test_loss: 3.4430 | test_acc: 0.3825
+ 44%|████▍     | 22/50 [43:05<54:27, 116.70s/it]Epoch: 23 | train_loss: 3.3073 | train_acc: 0.3987 | test_loss: 3.2987 | test_acc: 0.4062
+ 46%|████▌     | 23/50 [45:03<52:39, 117.02s/it]Epoch: 24 | train_loss: 3.2048 | train_acc: 0.4184 | test_loss: 3.1876 | test_acc: 0.4266
+ 48%|████▊     | 24/50 [47:00<50:45, 117.15s/it]Epoch: 25 | train_loss: 3.1089 | train_acc: 0.4378 | test_loss: 3.2364 | test_acc: 0.3955
+ 50%|█████     | 25/50 [48:58<48:53, 117.33s/it]Epoch: 26 | train_loss: 3.0204 | train_acc: 0.4550 | test_loss: 3.0945 | test_acc: 0.4312
+ 52%|█████▏    | 26/50 [50:55<46:56, 117.37s/it]Epoch: 27 | train_loss: 2.9200 | train_acc: 0.4763 | test_loss: 3.0066 | test_acc: 0.4477
+ 54%|█████▍    | 27/50 [52:54<45:05, 117.63s/it]Epoch: 28 | train_loss: 2.8350 | train_acc: 0.4920 | test_loss: 2.9348 | test_acc: 0.4621
+ 56%|█████▌    | 28/50 [54:48<42:47, 116.73s/it]Epoch: 29 | train_loss: 2.7664 | train_acc: 0.5054 | test_loss: 2.9928 | test_acc: 0.4636
+ 58%|█████▊    | 29/50 [56:45<40:52, 116.80s/it]Epoch: 30 | train_loss: 2.6783 | train_acc: 0.5278 | test_loss: 2.7351 | test_acc: 0.5095
+ 60%|██████    | 30/50 [58:41<38:51, 116.57s/it]Epoch: 31 | train_loss: 2.6208 | train_acc: 0.5368 | test_loss: 2.7257 | test_acc: 0.5070
+ 62%|██████▏   | 31/50 [1:00:38<36:57, 116.73s/it]Epoch: 32 | train_loss: 2.5405 | train_acc: 0.5540 | test_loss: 2.9875 | test_acc: 0.4736
+ 64%|██████▍   | 32/50 [1:02:34<34:54, 116.34s/it]Epoch: 33 | train_loss: 2.4626 | train_acc: 0.5716 | test_loss: 2.6794 | test_acc: 0.5207
+ 66%|██████▌   | 33/50 [1:04:31<33:01, 116.56s/it]Epoch: 34 | train_loss: 2.4032 | train_acc: 0.5818 | test_loss: 2.5614 | test_acc: 0.5491
+ 68%|██████▊   | 34/50 [1:06:27<31:02, 116.43s/it]Epoch: 35 | train_loss: 2.3346 | train_acc: 0.5995 | test_loss: 2.5206 | test_acc: 0.5583
+ 70%|███████   | 35/50 [1:08:24<29:09, 116.61s/it]Epoch: 36 | train_loss: 2.2763 | train_acc: 0.6114 | test_loss: 2.5934 | test_acc: 0.5415
+ 72%|███████▏  | 36/50 [1:10:22<27:16, 116.90s/it]Epoch: 37 | train_loss: 2.2180 | train_acc: 0.6266 | test_loss: 2.4725 | test_acc: 0.5748
+ 74%|███████▍  | 37/50 [1:12:18<25:17, 116.73s/it]Epoch: 38 | train_loss: 2.1627 | train_acc: 0.6361 | test_loss: 2.6549 | test_acc: 0.5208
+ 76%|███████▌  | 38/50 [1:14:15<23:22, 116.87s/it]Epoch: 39 | train_loss: 2.1139 | train_acc: 0.6463 | test_loss: 2.2447 | test_acc: 0.6206
+ 78%|███████▊  | 39/50 [1:16:13<21:27, 117.04s/it]Epoch: 40 | train_loss: 2.0641 | train_acc: 0.6557 | test_loss: 2.3660 | test_acc: 0.6049
+ 80%|████████  | 40/50 [1:18:07<19:23, 116.37s/it]Epoch: 41 | train_loss: 2.0163 | train_acc: 0.6691 | test_loss: 2.1540 | test_acc: 0.6295
+ 82%|████████▏ | 41/50 [1:20:03<17:26, 116.28s/it]Epoch: 42 | train_loss: 1.9682 | train_acc: 0.6813 | test_loss: 2.3674 | test_acc: 0.6022
+ 84%|████████▍ | 42/50 [1:22:01<15:32, 116.52s/it]Epoch: 43 | train_loss: 1.9225 | train_acc: 0.6918 | test_loss: 2.2583 | test_acc: 0.6217
+ 86%|████████▌ | 43/50 [1:23:57<13:36, 116.64s/it]Epoch: 44 | train_loss: 1.8686 | train_acc: 0.7047 | test_loss: 2.0881 | test_acc: 0.6614
+ 88%|████████▊ | 44/50 [1:25:54<11:40, 116.72s/it]Epoch: 45 | train_loss: 1.8387 | train_acc: 0.7095 | test_loss: 2.0775 | test_acc: 0.6668
+ 90%|█████████ | 45/50 [1:27:50<09:42, 116.42s/it]Epoch: 46 | train_loss: 1.7941 | train_acc: 0.7192 | test_loss: 2.0233 | test_acc: 0.6816
+ 92%|█████████▏| 46/50 [1:29:47<07:46, 116.72s/it]Epoch: 47 | train_loss: 1.7469 | train_acc: 0.7309 | test_loss: 1.9442 | test_acc: 0.6832
+ 94%|█████████▍| 47/50 [1:31:43<05:48, 116.32s/it]Epoch: 48 | train_loss: 1.7106 | train_acc: 0.7379 | test_loss: 2.1138 | test_acc: 0.6548
+ 96%|█████████▌| 48/50 [1:33:39<03:52, 116.18s/it]Epoch: 49 | train_loss: 1.6863 | train_acc: 0.7434 | test_loss: 1.9179 | test_acc: 0.6869
+ 98%|█████████▊| 49/50 [1:35:36<01:56, 116.51s/it]Epoch: 50 | train_loss: 1.6512 | train_acc: 0.7548 | test_loss: 2.5967 | test_acc: 0.5535
+100%|██████████| 50/50 [1:37:32<00:00, 116.41s/it]100%|██████████| 50/50 [1:37:32<00:00, 117.05s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: 🚀 View run driven-totem-46 at: https://wandb.ai/d22cs051/cv-project-2/runs/kg8xqkoe
+wandb: Synced 6 W&B file(s), 50 media file(s), 3250 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230508_033137-kg8xqkoe/logs
+total training time: 5860.418 sec.
+LOSS & Accuracy Curves
+lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+

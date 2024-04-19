@@ -1,0 +1,194 @@
+wandb: Currently logged in as: d22cs051. Use `wandb login --relogin` to force relogin
+wandb: Appending key for api.wandb.ai to your netrc file: /home/planck/.netrc
+[LOG]: Login Succesfull.
+[INFO] current used device: cuda
+wandb: Tracking run with wandb version 0.15.2
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230510_043608-4tjjzdaq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run cosmic-dust-72
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/4tjjzdaq
+[INFO] model class name: Resnet18
+[INFO] model loaded with custom weights.
+current exp / total: 1 / 4
+Training with: lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+  0%|          | 0/10 [00:00<?, ?it/s]Epoch: 1 | train_loss: 2.3205 | train_acc: 0.2444 | test_loss: 56.4031 | test_acc: 0.1625
+
+ 10%|█         | 1/10 [00:09<01:24,  9.41s/it]Epoch: 2 | train_loss: 1.5822 | train_acc: 0.3705 | test_loss: 4.3308 | test_acc: 0.2156
+
+ 20%|██        | 2/10 [00:18<01:13,  9.21s/it]Epoch: 3 | train_loss: 1.4889 | train_acc: 0.4262 | test_loss: 3.0241 | test_acc: 0.2531
+
+ 30%|███       | 3/10 [00:27<01:03,  9.13s/it]Epoch: 4 | train_loss: 1.3505 | train_acc: 0.4887 | test_loss: 10.0147 | test_acc: 0.1427
+
+ 40%|████      | 4/10 [00:35<00:52,  8.82s/it]Epoch: 5 | train_loss: 1.1734 | train_acc: 0.5447 | test_loss: 13.8538 | test_acc: 0.1521
+
+ 50%|█████     | 5/10 [00:44<00:43,  8.68s/it]Epoch: 6 | train_loss: 1.0772 | train_acc: 0.6070 | test_loss: 3.0387 | test_acc: 0.2448
+
+ 60%|██████    | 6/10 [00:52<00:34,  8.68s/it]Epoch: 7 | train_loss: 1.0585 | train_acc: 0.6266 | test_loss: 5.9704 | test_acc: 0.1604
+
+ 70%|███████   | 7/10 [01:01<00:25,  8.57s/it]Epoch: 8 | train_loss: 1.0078 | train_acc: 0.6360 | test_loss: 7.2919 | test_acc: 0.1906
+
+ 80%|████████  | 8/10 [01:10<00:17,  8.63s/it]Epoch: 9 | train_loss: 0.8482 | train_acc: 0.7005 | test_loss: 5.2176 | test_acc: 0.1740
+
+ 90%|█████████ | 9/10 [01:18<00:08,  8.68s/it]Epoch: 10 | train_loss: 0.7346 | train_acc: 0.7343 | test_loss: 2.3594 | test_acc: 0.3281
+
+100%|██████████| 10/10 [01:27<00:00,  8.74s/it]
+100%|██████████| 10/10 [01:27<00:00,  8.77s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: 🚀 View run cosmic-dust-72 at: https://wandb.ai/d22cs051/cv-project-2/runs/4tjjzdaq
+wandb: Synced 6 W&B file(s), 10 media file(s), 650 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230510_043608-4tjjzdaq/logs
+total training time: 99.186 sec.
+LOSS & Accuracy Curves
+lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+wandb: - Waiting for wandb.init()...
+wandb: \ Waiting for wandb.init()...
+wandb: Tracking run with wandb version 0.15.2
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230510_043752-8f7vbauz
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run eternal-fire-73
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/8f7vbauz
+[INFO] model class name: Resnet18
+[INFO] model loaded with custom weights.
+current exp / total: 2 / 4
+Training with: lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+  0%|          | 0/15 [00:00<?, ?it/s]Epoch: 1 | train_loss: 2.2693 | train_acc: 0.2783 | test_loss: 62.8823 | test_acc: 0.1083
+
+  7%|▋         | 1/15 [00:08<02:05,  8.99s/it]Epoch: 2 | train_loss: 1.5887 | train_acc: 0.3959 | test_loss: 11.1195 | test_acc: 0.1292
+
+ 13%|█▎        | 2/15 [00:17<01:52,  8.68s/it]Epoch: 3 | train_loss: 1.4557 | train_acc: 0.4521 | test_loss: 2.1987 | test_acc: 0.2302
+
+ 20%|██        | 3/15 [00:26<01:44,  8.69s/it]Epoch: 4 | train_loss: 1.2788 | train_acc: 0.5329 | test_loss: 2.3012 | test_acc: 0.3979
+
+ 27%|██▋       | 4/15 [00:34<01:36,  8.74s/it]Epoch: 5 | train_loss: 1.2487 | train_acc: 0.5357 | test_loss: 4.6911 | test_acc: 0.2333
+
+ 33%|███▎      | 5/15 [00:43<01:27,  8.78s/it]Epoch: 6 | train_loss: 1.2300 | train_acc: 0.5596 | test_loss: 3.3207 | test_acc: 0.3615
+
+ 40%|████      | 6/15 [00:52<01:18,  8.70s/it]Epoch: 7 | train_loss: 0.9740 | train_acc: 0.6249 | test_loss: 2.6784 | test_acc: 0.3229
+
+ 47%|████▋     | 7/15 [01:01<01:10,  8.82s/it]Epoch: 8 | train_loss: 0.9440 | train_acc: 0.6579 | test_loss: 2.3303 | test_acc: 0.3562
+
+ 53%|█████▎    | 8/15 [01:10<01:02,  8.91s/it]Epoch: 9 | train_loss: 0.8175 | train_acc: 0.7078 | test_loss: 5.0420 | test_acc: 0.2198
+
+ 60%|██████    | 9/15 [01:19<00:53,  8.92s/it]Epoch: 10 | train_loss: 0.7956 | train_acc: 0.7207 | test_loss: 1.3712 | test_acc: 0.5417
+
+ 67%|██████▋   | 10/15 [01:28<00:44,  8.94s/it]Epoch: 11 | train_loss: 0.6286 | train_acc: 0.7636 | test_loss: 2.3496 | test_acc: 0.2927
+
+ 73%|███████▎  | 11/15 [01:37<00:35,  8.97s/it]Epoch: 12 | train_loss: 0.5906 | train_acc: 0.7920 | test_loss: 4.1835 | test_acc: 0.2385
+
+ 80%|████████  | 12/15 [01:46<00:26,  8.94s/it]Epoch: 13 | train_loss: 0.5700 | train_acc: 0.7954 | test_loss: 1.5793 | test_acc: 0.4635
+
+ 87%|████████▋ | 13/15 [01:55<00:17,  8.98s/it]Epoch: 14 | train_loss: 0.4064 | train_acc: 0.8642 | test_loss: 2.3490 | test_acc: 0.3729
+
+ 93%|█████████▎| 14/15 [02:04<00:08,  8.98s/it]Epoch: 15 | train_loss: 0.3230 | train_acc: 0.9099 | test_loss: 2.4063 | test_acc: 0.4438
+
+100%|██████████| 15/15 [02:13<00:00,  9.01s/it]
+100%|██████████| 15/15 [02:13<00:00,  8.90s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: 🚀 View run eternal-fire-73 at: https://wandb.ai/d22cs051/cv-project-2/runs/8f7vbauz
+wandb: Synced 6 W&B file(s), 15 media file(s), 975 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230510_043752-8f7vbauz/logs
+total training time: 145.564 sec.
+LOSS & Accuracy Curves
+lr: 0.001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+wandb: - Waiting for wandb.init()...
+wandb: \ Waiting for wandb.init()...
+wandb: Tracking run with wandb version 0.15.2
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230510_044022-oo1w0c8a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run vocal-night-74
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/oo1w0c8a
+[INFO] model class name: Resnet18
+[INFO] model loaded with custom weights.
+current exp / total: 3 / 4
+Training with: lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+  0%|          | 0/10 [00:00<?, ?it/s]Epoch: 1 | train_loss: 1.2874 | train_acc: 0.5235 | test_loss: 2.2104 | test_acc: 0.3990
+
+ 10%|█         | 1/10 [00:08<01:16,  8.47s/it]Epoch: 2 | train_loss: 0.4282 | train_acc: 0.8644 | test_loss: 0.8062 | test_acc: 0.6969
+
+ 20%|██        | 2/10 [00:17<01:09,  8.67s/it]Epoch: 3 | train_loss: 0.1243 | train_acc: 0.9841 | test_loss: 1.1448 | test_acc: 0.7125
+
+ 30%|███       | 3/10 [00:26<01:01,  8.75s/it]Epoch: 4 | train_loss: 0.0407 | train_acc: 0.9957 | test_loss: 0.2180 | test_acc: 0.9271
+
+ 40%|████      | 4/10 [00:35<00:52,  8.82s/it]Epoch: 5 | train_loss: 0.0169 | train_acc: 0.9986 | test_loss: 0.4065 | test_acc: 0.8698
+
+ 50%|█████     | 5/10 [00:43<00:43,  8.71s/it]Epoch: 6 | train_loss: 0.0153 | train_acc: 0.9986 | test_loss: 0.4310 | test_acc: 0.8802
+
+ 60%|██████    | 6/10 [00:52<00:34,  8.73s/it]Epoch: 7 | train_loss: 0.0209 | train_acc: 0.9972 | test_loss: 1.3411 | test_acc: 0.6552
+
+ 70%|███████   | 7/10 [01:01<00:26,  8.76s/it]Epoch: 8 | train_loss: 0.0224 | train_acc: 0.9957 | test_loss: 1.6058 | test_acc: 0.5698
+
+ 80%|████████  | 8/10 [01:09<00:17,  8.75s/it]Epoch: 9 | train_loss: 0.0159 | train_acc: 0.9972 | test_loss: 1.0785 | test_acc: 0.7594
+
+ 90%|█████████ | 9/10 [01:18<00:08,  8.75s/it]Epoch: 10 | train_loss: 0.0184 | train_acc: 0.9940 | test_loss: 1.1934 | test_acc: 0.7500
+
+100%|██████████| 10/10 [01:27<00:00,  8.88s/it]
+100%|██████████| 10/10 [01:27<00:00,  8.78s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: 🚀 View run vocal-night-74 at: https://wandb.ai/d22cs051/cv-project-2/runs/oo1w0c8a
+wandb: Synced 6 W&B file(s), 10 media file(s), 650 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230510_044022-oo1w0c8a/logs
+total training time: 101.001 sec.
+LOSS & Accuracy Curves
+lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+wandb: - Waiting for wandb.init()...
+wandb: \ Waiting for wandb.init()...
+wandb: Tracking run with wandb version 0.15.2
+wandb: Run data is saved locally in /DATA1/bikash_dutta/CV/CV_P2/wandb/run-20230510_044207-faaj3ew2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run revived-capybara-75
+wandb: ⭐️ View project at https://wandb.ai/d22cs051/cv-project-2
+wandb: 🚀 View run at https://wandb.ai/d22cs051/cv-project-2/runs/faaj3ew2
+[INFO] model class name: Resnet18
+[INFO] model loaded with custom weights.
+current exp / total: 4 / 4
+Training with: lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
+  0%|          | 0/15 [00:00<?, ?it/s]Epoch: 1 | train_loss: 1.2556 | train_acc: 0.5433 | test_loss: 1.9743 | test_acc: 0.4844
+
+  7%|▋         | 1/15 [00:08<02:03,  8.79s/it]Epoch: 2 | train_loss: 0.4020 | train_acc: 0.8710 | test_loss: 0.4477 | test_acc: 0.8510
+
+ 13%|█▎        | 2/15 [00:17<01:56,  8.98s/it]Epoch: 3 | train_loss: 0.1036 | train_acc: 0.9830 | test_loss: 0.9198 | test_acc: 0.7021
+
+ 20%|██        | 3/15 [00:26<01:45,  8.83s/it]Epoch: 4 | train_loss: 0.0542 | train_acc: 0.9901 | test_loss: 0.2360 | test_acc: 0.9094
+
+ 27%|██▋       | 4/15 [00:35<01:37,  8.85s/it]Epoch: 5 | train_loss: 0.0299 | train_acc: 0.9915 | test_loss: 0.8317 | test_acc: 0.7427
+
+ 33%|███▎      | 5/15 [00:44<01:28,  8.88s/it]Epoch: 6 | train_loss: 0.0579 | train_acc: 0.9872 | test_loss: 1.2518 | test_acc: 0.6969
+
+ 40%|████      | 6/15 [00:53<01:19,  8.83s/it]Epoch: 7 | train_loss: 0.0308 | train_acc: 0.9915 | test_loss: 0.4398 | test_acc: 0.8698
+
+ 47%|████▋     | 7/15 [01:01<01:10,  8.80s/it]Epoch: 8 | train_loss: 0.0272 | train_acc: 0.9940 | test_loss: 0.4393 | test_acc: 0.8479
+
+ 53%|█████▎    | 8/15 [01:13<01:08,  9.75s/it]Epoch: 9 | train_loss: 0.0422 | train_acc: 0.9852 | test_loss: 0.6823 | test_acc: 0.8167
+
+ 60%|██████    | 9/15 [01:22<00:56,  9.45s/it]Epoch: 10 | train_loss: 0.0364 | train_acc: 0.9883 | test_loss: 0.5538 | test_acc: 0.8583
+
+ 67%|██████▋   | 10/15 [01:31<00:46,  9.32s/it]Epoch: 11 | train_loss: 0.0285 | train_acc: 0.9915 | test_loss: 2.0847 | test_acc: 0.5792
+
+ 73%|███████▎  | 11/15 [01:40<00:36,  9.14s/it]Epoch: 12 | train_loss: 0.0255 | train_acc: 0.9957 | test_loss: 0.9026 | test_acc: 0.7490
+
+ 80%|████████  | 12/15 [01:48<00:26,  8.98s/it]Epoch: 13 | train_loss: 0.0248 | train_acc: 0.9926 | test_loss: 0.4686 | test_acc: 0.8813
+
+ 87%|████████▋ | 13/15 [01:57<00:17,  8.89s/it]Epoch: 14 | train_loss: 0.0183 | train_acc: 0.9986 | test_loss: 0.5364 | test_acc: 0.8594
+
+ 93%|█████████▎| 14/15 [02:06<00:08,  8.91s/it]Epoch: 15 | train_loss: 0.0224 | train_acc: 0.9915 | test_loss: 0.3119 | test_acc: 0.9052
+
+100%|██████████| 15/15 [02:15<00:00,  8.84s/it]
+100%|██████████| 15/15 [02:15<00:00,  9.01s/it]
+wandb: Waiting for W&B process to finish... (success).
+wandb: 🚀 View run revived-capybara-75 at: https://wandb.ai/d22cs051/cv-project-2/runs/faaj3ew2
+wandb: Synced 6 W&B file(s), 15 media file(s), 975 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230510_044207-faaj3ew2/logs
+total training time: 148.809 sec.
+LOSS & Accuracy Curves
+lr: 0.0001, betas: (0.8, 0.888), eps: 1e-08, weight_decay: 0.001
+
